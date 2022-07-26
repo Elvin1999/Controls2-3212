@@ -95,6 +95,8 @@ namespace Controls2
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Form2 form2=new Form2();
+            form2.ShowDialog(); 
             //MessageBox.Show(richTextBox1.SelectedText);
             //richTextBox1.SelectionColor = Color.Green;
             //richTextBox1.SelectionFont = new Font("Comic Sans MS", 20, FontStyle.Bold | FontStyle.Italic);
